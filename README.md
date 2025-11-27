@@ -42,7 +42,7 @@ All computations are based on **normalized centroid coordinates** extracted from
 ##  Repository Structure
 
      Birds_Behaviour_Analysis/
-       ── analysis.ipynb # Main pipeline
+      |── analysis.ipynb # Main pipeline
       │── coco_annotations.json # COCO annotation file (not included here if confidential)
       │── images/ # Feeder images
       │── results/ # Output visualizations
@@ -52,7 +52,7 @@ All computations are based on **normalized centroid coordinates** extracted from
       │ ├── dominance_barplot.png
       │ └── occupancy_<species>.png
       │── report.pdf # Full written analysis
-      │── README.md
+      └── README.md
 
 
 
