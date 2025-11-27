@@ -44,10 +44,16 @@ All computations are based on **normalized centroid coordinates** extracted from
      Birds_Behaviour_Analysis/
       │── results/                                # Output visualizations
       │ ├── cooccurrence_heatmap.png
-      │ ├── social_spacing_boxplot.png
-      │ ├── social_network_graph.png
       │ ├── dominance_barplot.png
-      │ └── occupancy_<species>.png
+      │ ├── occupancy_Common_Myna.png
+      │ ├── occupancy_Female_Rose_Ringed_Parakeet.png
+      │ ├── occupancy_House_Crow.png
+      | ├── occupancy_Male_Rose_Ringed_Parakeet.png
+      | ├── occupancy_Male_Rose_Ringed_Parakeet.png
+      | ├── occupancy_Rufous_Treepie.png
+      | ├── occupancy_Silver_Bill.png
+      | ├── social_network_graph.png
+      | └── social_spacing_boxplot.png
       |── Analysis.ipynb                          # Main pipeline
       │── Birds_Behaviour_Analysis_Report.pdf     # Full written analysis
       │── README.md
