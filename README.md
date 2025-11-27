@@ -42,15 +42,15 @@ All computations are based on **normalized centroid coordinates** extracted from
 ##  Repository Structure
 
      Birds_Behaviour_Analysis/
-      |── analysis.ipynb # Main pipeline
-      │── coco_annotations.json # COCO annotation file (not included here if confidential)
-      │── results/ # Output visualizations
+      |── analysis.ipynb                          # Main pipeline
+      │── coco_annotations.json                   # COCO annotation file (not included here if confidential)
+      │── results/                                # Output visualizations
       │ ├── cooccurrence_heatmap.png
       │ ├── social_spacing_boxplot.png
       │ ├── social_network_graph.png
       │ ├── dominance_barplot.png
       │ └── occupancy_<species>.png
-      │── report.pdf # Full written analysis
+      │── Birds_Behaviour_Analysis_Report.pdf     # Full written analysis
       └── README.md
 
 
