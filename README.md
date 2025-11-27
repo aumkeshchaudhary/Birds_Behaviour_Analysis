@@ -14,18 +14,18 @@ This project aims to repurpose standard object detection datasets for **computat
 
 ---
 
-## 📌 Dataset
+##  Dataset
 - Format: **COCO JSON**
 - Each annotation includes: `image_id`, `category_id`, `bbox [x, y, width, height]`
 - Species label derived from `category_id`
 - Images contain **multiple bird species at a feeder**
 
-> 🚫 **Pose estimation, identity tracking, and video trajectories were not used.**  
+>  **Pose estimation, identity tracking, and video trajectories were not used.**  
 > The analysis intentionally relies only on bounding boxes.
 
 ---
 
-## 🧠 Methods Overview
+## Methods Overview
 
 | Metric | Technique | Output |
 |--------|-----------|--------|
@@ -39,20 +39,20 @@ All computations are based on **normalized centroid coordinates** extracted from
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
-Birds_Behaviour_Analysis/
-│── analysis.ipynb # Main pipeline
-│── coco_annotations.json # COCO annotation file (not included here if confidential)
-│── images/ # Feeder images
-│── results/ # Output visualizations
-│ ├── cooccurrence_heatmap.png
-│ ├── social_spacing_boxplot.png
-│ ├── social_network_graph.png
-│ ├── dominance_barplot.png
-│ └── occupancy_<species>.png
-│── report.pdf # Full written analysis
-│── README.md
+     Birds_Behaviour_Analysis/
+       ── analysis.ipynb # Main pipeline
+      │── coco_annotations.json # COCO annotation file (not included here if confidential)
+      │── images/ # Feeder images
+      │── results/ # Output visualizations
+      │ ├── cooccurrence_heatmap.png
+      │ ├── social_spacing_boxplot.png
+      │ ├── social_network_graph.png
+      │ ├── dominance_barplot.png
+      │ └── occupancy_<species>.png
+      │── report.pdf # Full written analysis
+      │── README.md
 
 
 
@@ -90,9 +90,3 @@ Future extensions (planned):
 - Identity-aware tracking and displacement events
 - Behavioural state classification from pose dynamics
 - Temporal interaction graphs
-
----
-
-## 📄 Citation (optional)
-If you use this repository, please cite:
-
