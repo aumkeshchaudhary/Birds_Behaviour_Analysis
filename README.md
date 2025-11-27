@@ -44,7 +44,6 @@ All computations are based on **normalized centroid coordinates** extracted from
      Birds_Behaviour_Analysis/
       |── analysis.ipynb # Main pipeline
       │── coco_annotations.json # COCO annotation file (not included here if confidential)
-      │── images/ # Feeder images
       │── results/ # Output visualizations
       │ ├── cooccurrence_heatmap.png
       │ ├── social_spacing_boxplot.png
