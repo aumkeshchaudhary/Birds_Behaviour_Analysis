@@ -58,7 +58,7 @@ All computations are based on **normalized centroid coordinates** extracted from
 
 ---
 
-## 📊 Output Visualizations
+## Output Visualizations
 
 - **Co-occurrence heatmap**
 - **Species-pair distance distributions (boxplot)**
@@ -70,7 +70,7 @@ Each can be directly used in research reports or presentations.
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 - Python 3
 - NumPy, Pandas
 - Matplotlib
@@ -80,7 +80,7 @@ Each can be directly used in research reports or presentations.
 
 ---
 
-## 🚀 Motivation and Next Steps
+##  Motivation and Next Steps
 
 This project serves as a lightweight behavioural analysis baseline for wildlife datasets that **lack pose estimation or ID tracking**.
 
